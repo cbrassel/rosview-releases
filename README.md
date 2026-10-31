@@ -11,7 +11,15 @@ Native macOS app that monitors Linux servers over SSH, in the spirit of **xosvie
 
 ## Install
 
-Download the latest `Rosview-x.y.dmg` from [Releases](../../releases), open it and drag **Rosview** into **Applications**.
+With [Homebrew](https://brew.sh):
+
+```sh
+brew tap cbrassel/tap
+brew trust cbrassel/tap   # Homebrew 7 and later
+brew install --cask rosview
+```
+
+Or download the latest `Rosview-x.y.dmg` from [Releases](../../releases), open it and drag **Rosview** into **Applications**.
 
 The app is signed with a Developer ID and notarized by Apple.
 
